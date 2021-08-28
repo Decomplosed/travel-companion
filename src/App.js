@@ -4,7 +4,13 @@ import { CssBaseline, Grid } from '@material-ui/core';
 import { Header, List, Map, PlaceDetails } from './components';
 
 const App = () => {
-  return <div></div>;
+  return (
+    <>
+      <CssBaseline />
+      <Header />
+      <Grid container spacing={3} style={{ width: '100%' }}></Grid>
+    </>
+  );
 };
 
 export default App;
