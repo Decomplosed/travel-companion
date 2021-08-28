@@ -13,6 +13,7 @@ const Header = () => {
           <Typography variant='h6' className={classes.title}>
             Explore new places
           </Typography>
+          <Autocomplete></Autocomplete>
         </Box>
       </Toolbar>
     </AppBar>
