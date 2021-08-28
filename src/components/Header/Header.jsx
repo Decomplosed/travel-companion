@@ -3,7 +3,7 @@ import { Autocomplete } from '@react-google-maps/api';
 import { AppBar, Toolbar, Typography, InputBase, Box } from '@material-ui/core';
 
 const Header = () => {
-  return <div></div>;
+  return <AppBar position='static'></AppBar>;
 };
 
 export default Header;
