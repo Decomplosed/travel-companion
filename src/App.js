@@ -1,7 +1,8 @@
 import React from 'react';
 import { CssBaseline, Grid } from '@material-ui/core';
 
-import { Header, List, Map } from './components';
+import { List, Map } from './components';
+import Header from './components/Header/Header';
 
 const App = () => {
   return (
