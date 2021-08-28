@@ -13,7 +13,9 @@ const Header = () => {
           <Typography variant='h6' className={classes.title}>
             Explore new places
           </Typography>
-          <Autocomplete></Autocomplete>
+          <Autocomplete>
+            <div className={classes.search}></div>
+          </Autocomplete>
         </Box>
       </Toolbar>
     </AppBar>
