@@ -8,6 +8,7 @@ import {
   FormControl,
   Select,
 } from '@material-ui/core';
+import PlaceDetails from '../index';
 
 import useStyles from './styles';
 
