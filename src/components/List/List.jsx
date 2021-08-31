@@ -12,6 +12,8 @@ import {
 import useStyles from './styles';
 
 const List = () => {
+  const classes = useStyles();
+
   return <div></div>;
 };
 
