@@ -7,6 +7,8 @@ import Rating from '@material-ui/lab';
 import useStyles from './styles';
 
 const Map = () => {
+  const classes = useStyles();
+
   return <div></div>;
 };
 
