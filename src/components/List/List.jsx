@@ -21,7 +21,11 @@ const List = () => {
       </Typography>
       <FormControl className={classes.formControl}>
         <InputLabel>Type</InputLabel>
-        <Select value={} onChange={}></Select>
+        <Select value={} onChange={}>
+          <MenuItem value='restaurants'>Restaurants</MenuItem>
+          <MenuItem value='hotels'>Hotels</MenuItem>
+          <MenuItem value='attractions'>Attractions</MenuItem>
+        </Select>
       </FormControl>
     </div>
   );
