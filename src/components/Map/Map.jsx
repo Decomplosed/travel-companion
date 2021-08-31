@@ -18,6 +18,7 @@ const Map = () => {
         bootstrapURLKeys={{ key: '' }}
         defaultCenter={coordinates}
         defaultZoom={14}
+        margin={[50, 50, 50, 50]}
       ></GoogleMapReact>
     </div>
   );
