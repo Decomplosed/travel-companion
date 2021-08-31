@@ -10,7 +10,11 @@ const Map = () => {
   const classes = useStyles();
   const isMobile = useMediaQuery('(min-width: 600px)');
 
-  return <div></div>;
+  return (
+    <div className={classes.mapContainer}>
+      <GoogleMapReact></GoogleMapReact>
+    </div>
+  );
 };
 
 export default Map;
