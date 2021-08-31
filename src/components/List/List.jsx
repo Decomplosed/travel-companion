@@ -16,6 +16,12 @@ const places = [
   { name: 'Cool Place' },
   { name: 'Best Beer' },
   { name: 'Best Steak' },
+  { name: 'Cool Place' },
+  { name: 'Best Beer' },
+  { name: 'Best Steak' },
+  { name: 'Cool Place' },
+  { name: 'Best Beer' },
+  { name: 'Best Steak' },
 ];
 
 const List = () => {
@@ -47,7 +53,9 @@ const List = () => {
       </FormControl>
       <Grid container spacing={3} className={classes.list}>
         {places?.map((place, index) => (
-          <Grid item key={index} xs={12}></Grid>
+          <Grid item key={index} xs={12}>
+            <PlaceDetails place={place} />
+          </Grid>
         ))}
       </Grid>
     </div>
