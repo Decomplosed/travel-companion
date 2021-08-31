@@ -11,6 +11,12 @@ import {
 
 import useStyles from './styles';
 
+const places = [
+  { name: 'Cool Place' },
+  { name: 'Best Beer' },
+  { name: 'Best Steak' },
+];
+
 const List = () => {
   const classes = useStyles();
   const [type, setType] = useState('restaurants');
