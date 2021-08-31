@@ -19,7 +19,7 @@ const List = () => {
       <Typography variant='h4'>
         Restaurants, Hotels & Attractions around you
       </Typography>
-      <FormControl></FormControl>
+      <FormControl className={classes.formControl}></FormControl>
     </div>
   );
 };
