@@ -19,7 +19,10 @@ const List = () => {
       <Typography variant='h4'>
         Restaurants, Hotels & Attractions around you
       </Typography>
-      <FormControl className={classes.formControl}></FormControl>
+      <FormControl className={classes.formControl}>
+        <InputLabel>Type</InputLabel>
+        <Select value={} onChange={}></Select>
+      </FormControl>
     </div>
   );
 };
