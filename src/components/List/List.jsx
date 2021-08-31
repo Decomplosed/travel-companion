@@ -14,7 +14,14 @@ import useStyles from './styles';
 const List = () => {
   const classes = useStyles();
 
-  return <div></div>;
+  return (
+    <div className={classes.container}>
+      <Typography variant='h4'>
+        Restaurants, Hotels & Attractions around you
+      </Typography>
+      <FormControl></FormControl>
+    </div>
+  );
 };
 
 export default List;
