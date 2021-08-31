@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   CircularProgress,
   Grid,
@@ -13,6 +13,7 @@ import useStyles from './styles';
 
 const List = () => {
   const classes = useStyles();
+  const [type, setType] = useState('restaurants');
 
   return (
     <div className={classes.container}>
@@ -21,7 +22,7 @@ const List = () => {
       </Typography>
       <FormControl className={classes.formControl}>
         <InputLabel>Type</InputLabel>
-        <Select value={} onChange={}>
+        <Select value={''} onChange={() => {}}>
           <MenuItem value='restaurants'>Restaurants</MenuItem>
           <MenuItem value='hotels'>Hotels</MenuItem>
           <MenuItem value='attractions'>Attractions</MenuItem>
