@@ -25,8 +25,11 @@ const options = {
 };
 
 
-const getPlacesData = async () => {
+export const getPlacesData = async () => {
   try {
     const response = axios.get(URL, options);
-  } catch (error) {}
+    return response.data
+  } catch (error) {
+    console.log(error)
+  }
 };
