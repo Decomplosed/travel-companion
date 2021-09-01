@@ -6,6 +6,7 @@ import { List, Map, Header } from './components';
 
 const App = () => {
   const [places, setPlaces] = useState([]);
+  const [coordinates, setCoordinates] = useState({});
 
   useEffect(() => {
     getPlacesData().then((data) => {
