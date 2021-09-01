@@ -8,7 +8,10 @@ const App = () => {
   const [places, setPlaces] = useState([]);
 
   useEffect(() => {
-    getPlacesData();
+    getPlacesData().then((data) => {
+      console.log(data);
+      setPlaces(data);
+    });
   }, []);
 
   return (

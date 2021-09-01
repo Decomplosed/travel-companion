@@ -4,8 +4,6 @@ const URL =
   'https://travel-advisor.p.rapidapi.com/restaurants/list-in-boundary';
 
 const options = {
-  method: 'GET',
-  url: URL,
   params: {
     bl_latitude: '11.847676',
     tr_latitude: '12.838442',
